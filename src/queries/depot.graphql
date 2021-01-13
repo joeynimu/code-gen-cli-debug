@@ -1,0 +1,14 @@
+query depots {
+  depots_v2 {
+    edges {
+      node {
+        depot_id
+        depot_name
+        routes {
+          route_id
+          route_name
+        }
+      }
+    }
+  }
+}
